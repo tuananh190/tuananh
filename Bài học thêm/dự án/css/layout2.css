@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-page{
+    width: 11rem;
+}
+.nen2{
+   width: 96rem;
+}
+.nav-item2{
+    text-decoration-line: underline;
+}
+.nav-item2:hover{
+    color: yellow;  
+}
+h2{
+    margin: auto;  
+    width: 60%;  
+    border: 3px;  
+    padding: 10px;
+    text-align: center; 
+}
+h3{
+    margin: auto;
+    text-align: center;
+}
+.anhnen2{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.anh3cham{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: auto;
+    text-align: center;
+}
+.anh6cham{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h5{
+    margin: auto;
+    text-align: center;
+}
+.anh3{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}

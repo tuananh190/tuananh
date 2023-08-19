@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    text-decoration-line: underline;
+}
+.nav-item:hover{
+    background-color: yellow;
+}
+.logo-page{
+    width: 11rem;
+}
+.nen{
+    width: 97rem;
+}
+h2{
+    margin: auto;
+   width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.box-name{
+    width: 100%;  
+    padding: 12px 20px;  
+    margin: 8px 0;  
+    box-sizing: border-box;
+}
+.btnsubmit{
+    width: 100%;  
+    padding: 12px 20px;  
+    margin: 8px 0;  
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 42);
+    color: aliceblue;
+}
+.day{
+    width: 98rem;
+}
+.nav-item2:hover{
+    background-color: yellow;
+}
+.newletter{
+    display: block;
+    align-items: center;
+ }
+ 

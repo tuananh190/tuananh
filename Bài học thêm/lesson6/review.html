@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review - css -1</title>
+</head>
+<body>
+    <header>
+        <h1>review-css1</h1>
+    </header>
+    <section id="zone2">
+        <pre>
+            1. Nhúng css vào html
+                 - style inline
+                 - tag style (trên phần head cảu trang html)
+                 - External file style (file.css -> link / import)
+            2. CSS selector
+                * Bộ chọn phần tử 
+                tagHTML{...} 
+                ex: h1{...} p{...}
+                *Bộ chọn ID
+                # ID {...}
+                  ex: #zone1{back-ground-color:#ccff12}
+                * Bộ chọn Class
+                .class-name {...}
+                ex:
+                   .noi-dung{
+                    color:blue
+                   }
+                *Bộ chọn theo giá trị thuộc tính
+                tag[attribute=value]{.....}
+                ex:
+                   input[type="text"]{
+                        border: 1px soild #ccc;
+                   }
+                *Bộ chọn ngữ cảnh
+                    tag:hover 
+                    tag:active
+                    tag:before / tag:after
+                    tag:first-child ; ... 
+                    ...
+                    ex:
+                       a: hover{
+                        color:red
+                       }
+                *Bộ chọn:
+                    - tag01 , tag02{...}
+                    - tag01 > tag02{...}
+                    - tag01 ~ tag02{...}
+                    - tag01 + tag02{...}
+                    ....
+            3 . Các thuộc tính CSS 
+                - Display ; position ; opacity ; visiblity
+                - margin; padding ;... 
+                - background 
+                - border :
+                         size, style border, border-color 
+                - top / right / bottom / left 
+                - width / height / min-width / min-height / max-withd / max-height 
+            4. đơn vị tunhs trong CSS
+                - px
+                - rem / em  
+                ... 
+            5. Hệ màu :
+                - rgb / rgba : rgb(123,222,333) / rgba(111,123,223,.5) ->0-255
+                - hệ màu tiếng anh: blue, green, ...
+                - hệ màu : HEX
+                  a,b,c,d,e,f , 0-9 
+                  #abcdef
+                  #12acff
+                  #000 (#0000) - black 
+                  #fff (#ffff) - white 
+        </pre>
+    </section>
+    <section id="zone2">
+        <div style="font-size: 20px;">
+            <p style="margin: 1.5em;">abc</p>
+            <p style="margin: 1.5rem;">sadsad</p>
+        </div>
+    </section>
+</body>
+</html>

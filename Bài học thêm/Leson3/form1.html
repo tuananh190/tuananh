@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html5</title>
+</head>
+<body>
+    <h1>From in html5 </h1>
+    <form id="frm" name="frm" action="" method="post" enctype="multipart/form-data">
+        <pre>
+            * các loại phần tử trên form thông dụng :
+            -input:
+               + type: text, password, email , number, range , tel,
+                     date, datetime-local
+                     color, week,...
+                     checkbox, radio, ...
+                     submit, reset, button, 
+                     file, image 
+
+                + name, id :
+                + placeholder :    
+                +  
+            -select
+            -textarea
+            -button
+        </pre>
+        <hr>
+        <p>
+            text:
+            <input type="text" name="txt" id="txt"
+            placeholder="Nhập văn bản...">
+        </p>
+        <p>
+            password:
+            <input type="password " name="pass" id="pass"
+            placeholder="Nhập mật khẩu....">
+        </p>
+        <p>
+            email:
+            <input type="email" name="email" id="email"
+            placeholder="vidu@gmail.com" required>
+        </p>
+        <p>
+            tel:
+            <input type="tel" name="phone" id="phone"
+            placeholder="Nhập số điện thoại">
+        </p>
+        <P>
+            number:
+            <input type="number" name="num" id="num" max="100"
+            min="1" value="20">
+        </P>
+        <p>
+            range:
+            <input type="range" name="ran" id="ran" max="50"
+            min="10" value="25">
+        </p>
+        <p>
+          checkbox:
+          <input type="checkbox" name="chk" id="chk1" checked>
+          <label for="chk1">Bóng đá</label>
+          <input type="checkbox" name="chk" id="chk2">
+          <label for="chk2">Bóng chuyền</label>
+          <input type="checkbox" name="chk" id="chk3">
+          <label for="chk3">bóng bầu dục </label>  
+        </p>
+        <p>
+            Radio:
+            <input type="radio" value="1" checkname="rd" id="rd1">
+            <label for="rd1">Nam</label>
+            <input type="radio" value="0" kname="rd" id="rd2">
+            <label for="rd1">Nữ</label>
+        </p>
+        <p>
+            buttom:
+            <input type="tex" name="username" id="username"
+            placeholder="nhập username">
+            <input type="button" value="hiển thị" id="btn_button" name="btn_button">
+        </p>
+        <p>
+            file:
+            <input type="file" name="anh" id="anh">
+        </p>
+        <p>
+            color:
+            <input type="color" name="mau" id="mau">
+        </p>
+        <p>
+            date:
+            <input type="date" name="ngaysinh" id="ngaysinh">
+        </p>
+        <p>
+            select:
+            <select name="chon" id="chon">
+                <option value="hn">Hà nội</option>
+                <option value="hcm">Hồ chí minh</option>
+                <option value="đn">đà nẵng</option>
+                <option value="hp">Hải phòng</option>
+            </select>
+        </p>
+        <p>
+          địa chỉ:
+          <textarea name="dia chi" id="diachi" cols="30" rows="10"></textarea>  
+        </p>
+        <button> click here </button>
+    </form>
+</body>
+</html>

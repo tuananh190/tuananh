@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 566.99px) {
+     body{
+        background-color: aqua;
+     }
+}
+@media (min-width: 567px) and (max-width: 768.98px) {
+    body{
+        background-color: chartreuse;
+    }
+}
+
+/* // Example
+// Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    body{
+        background-color: darkgray;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    body{
+        background-color: darkred;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    body{
+        background-color: cornflowerblue;
+    }
+}
+
+@media (min-width: 1600px) {
+    body{
+        background-color: chartreuse;
+    }
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 18px;
+    /* background-color: black; */
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    body{
+      background-color: darkblue;
+   }
+}
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    body{
+     background-color: cyan;
+   }
+ }
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    body{
+      background-color: chocolate;
+  }
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    body{
+        background-color: aquamarine;
+   }
+}
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body{
+       background-color: brown;
+    }
+ }
+
+
+
+
+
+
+
+

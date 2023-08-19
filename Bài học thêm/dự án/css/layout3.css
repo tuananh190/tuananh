@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-page{
+    width: 11rem;
+}
+.nav-item2:hover{
+    background-color: yellow;
+}
+.nenteam{
+    width: 97rem;
+}
+.diendan{
+    width: 32rem;
+}
+.nhom{
+    width: 32rem;
+}
+.block{
+    width: 32rem;
+}
+h2{
+    margin: auto;  
+    width: 60%;  
+    border: 3px;  
+    padding: 10px;
+    text-align: center; 
+}
+.chim{
+    width: 97rem;
+}

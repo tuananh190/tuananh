@@ -1,0 +1,11 @@
+#top nav {
+    width: 960px;
+    margin: o auto;
+    background: #ccc;
+    height: 40px;
+}
+#top nav ul {
+    padding: 0%;
+    margin: 0%;
+}
+

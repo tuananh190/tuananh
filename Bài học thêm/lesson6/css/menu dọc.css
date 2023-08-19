@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 2rem;
+    padding: .5rem;
+}
+nav ul{
+    list-style: none;
+    background-color: aquamarine;
+}
+nav ul a{
+    display: block;
+    padding: .5rem 1rem ;
+    text-decoration: none;
+    border-right: 1px solid wheat;
+}
+nav ul a:hover{
+    background-color: red;
+    color: white;
+}

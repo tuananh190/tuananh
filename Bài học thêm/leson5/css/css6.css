@@ -1,0 +1,41 @@
+/* bộ chọn */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* bộ chọntag01 tag02 */
+#zone1 p{
+    color: rgb(0, 255, 234);
+}
+/* bộ chọn tag01 > tag02 */
+#zone1 > p {
+    background-color: cyan;
+}
+/* bộ chọn tag01,tag02 */
+h1, h2, h3 {
+    color: aqua;
+}
+/* tag01+tag02 */
+h2 + p{
+    color: darkorchid;
+}
+/* tag01 ~ tag02 */
+#zone2 h2 ~ p {
+    color: chartreuse;
+    background: cyan;
+    margin: .5rem;
+}
+/* first-child */
+#zone4 p:first-child {
+    font-size: 3rem;
+}
+/* last-child */
+#zone4 p:last-child{
+    font-size: 5rem;
+}
+#zone4 p:nth-child(3){
+    font-size: 4rem;
+}
+#zone4 p:nth-child(2n){
+    color: blue;
+}
